@@ -1,0 +1,15 @@
+class Solution(object):
+    def countTriples(self, n):
+        count=0
+        for i in range(1,n+1):
+            for j in range(1,n+1):
+                k=int(((i**2)+(j**2))**0.5)
+
+                if k<=n and ((i**2)+(j**2)==k**2):
+                    count+=1
+        return count            
+
+
+        
+        
+        
