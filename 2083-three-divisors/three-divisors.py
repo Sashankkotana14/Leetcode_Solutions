@@ -7,5 +7,6 @@ class Solution(object):
         if count==3:
             return True
         else:
-            return False    
+            return False                                   
+            
         
